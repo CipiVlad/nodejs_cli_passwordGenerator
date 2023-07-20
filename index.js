@@ -39,7 +39,7 @@ log(program.opts());
 // { length: '10' }
 
 
-//?     destructuring program.opts() because all options ar inside
+//?     destructuring program.opts() because all options are inside
 const { length, save, numbers, symbols, newfile, store, dir } = program.opts()
 // log(numbers, symbols);
 // true true
